@@ -31,6 +31,6 @@ while True:
     else:
         print("Thank You")
 
-    enter_again = input("Enter again? (y/n): ")
+    enter_again = input("Want to identify again? (y/n): ")
     if enter_again.lower() != "y":
         break

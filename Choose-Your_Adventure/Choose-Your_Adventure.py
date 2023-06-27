@@ -33,6 +33,6 @@ while True:
         print(name, ", Not a valid option. You Lose.")
         
         
-    enter_again = input("Enter again? (y/n): ")
+    enter_again = input("Want to play again? (y/n): ")
     if enter_again.lower() != "y":
         break

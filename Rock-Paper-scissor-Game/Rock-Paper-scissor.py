@@ -32,6 +32,6 @@ while True:
         if computer_move == "paper":
             print("Scissor cuts paper. You Win The GAME..!")
 
-    play_again = input("Play again? (y/n): ")
+    play_again = input("Want to Play again? (y/n): ")
     if play_again.lower() != "y":
         break
